@@ -1,0 +1,44 @@
+{
+  "name": "eve-market-tracker-backend",
+  "version": "1.0.0",
+  "description": "A REST backend API to deliver market data from eve_price_tracker database",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon run server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pb-bennett/market-tracker-1DQ1-A-back.git"
+  },
+  "author": "Paul Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pb-bennett/market-tracker-1DQ1-A-back/issues"
+  },
+  "homepage": "https://github.com/pb-bennett/market-tracker-1DQ1-A-back#readme",
+  "dependencies": {
+    "danfojs-node": "^1.1.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mathjs": "^11.6.0",
+    "mongoose": "^6.10.0",
+    "morgan": "^1.10.0",
+    "moving-averages": "^4.0.6",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.28.0",
+    "sequelize-auto": "^0.8.8",
+    "sequelize-search-builder": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  }
+}
