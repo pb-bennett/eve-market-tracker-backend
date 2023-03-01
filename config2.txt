@@ -1,0 +1,6 @@
+NODE_ENV=development
+PORT=3000
+USERNAME=paul
+PASSWORD=123456
+DATABASE=mongodb+srv://paul-admin:<PASSWORD>@cluster0.scr5xfr.mongodb.net/eve-price-tracker?retryWrites=true&w=majority
+DATABASE_PASSWORD=rR3Vkry8LdUEc0yN
