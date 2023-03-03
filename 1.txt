@@ -1,9 +1,0 @@
-NODE_ENV=development
-PORT=3000
-DB_PASSWORD=k$Y2$s0$/KAnqjj
-DB_HOST=192.168.1.100
-DB_HOST_REMOTE=84.234.239.112
-DB_USER=remote-admin
-DB_NAME=eve_price_tracker_beta
-DB_NAME2=sdeodyssey107
-
