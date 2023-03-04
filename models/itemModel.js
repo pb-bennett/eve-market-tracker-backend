@@ -168,7 +168,7 @@ const itemSchema = new mongoose.Schema({
   iconID: Number,
   groupName: String,
   marketGroupID: Number,
-  keywords: [String],
+  keywords: { primary: [String], secondary: [String], tertiary: [String] },
 });
 
 const Item = mongoose.model('PriceData', itemSchema);
